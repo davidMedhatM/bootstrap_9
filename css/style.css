@@ -1,0 +1,189 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* start nav */
+
+header nav {
+    background-image: linear-gradient(to right, black 70%, white);
+}
+
+header nav a {
+    color: wheat;
+    font-weight: 300;
+    font-family: cursive;
+    transition: all 0.5s;
+    margin: 0px 10px;
+
+}
+
+header nav a:hover {
+    background-color: white;
+    text-decoration: underline !important;
+    border-radius: 20px;
+    color: black;
+}
+
+header nav a img {
+    width: 60px;
+}
+
+/* star main carsoul */
+
+
+
+/* start abot us */
+
+
+.aboutus {
+    background-image: linear-gradient(to right, black 70%, rgb(199, 198, 198));
+    color: white;
+}
+
+.aboutus .hr {
+    height: 2px;
+    background-image: linear-gradient(to left, black, red, black);
+    border-radius: 50%;
+    width: 40%;
+    margin: 15px auto;
+}
+
+.aboutus hr {
+    border: 1px dashed white;
+    margin: 15px auto;
+}
+
+.aboutus .hr1 {
+    width: 30%;
+}
+
+.aboutus hr {
+    width: 20%;
+}
+
+/* start gallary */
+.gallary {
+    background-image: linear-gradient(to right, black 70%, rgb(199, 198, 198));
+    color: white;
+}
+
+.gallary img {
+    border: darkgray 1px solid;
+    border-radius: 20px;
+}
+
+.gallary .hr {
+    height: 2px;
+    background-image: linear-gradient(to left, black, red, black);
+    border-radius: 50%;
+    width: 40%;
+    margin: 15px auto;
+}
+
+.gallary hr {
+    border: 1px dashed white;
+    margin: 15px auto;
+}
+
+.gallary .hr1 {
+    width: 30%;
+}
+
+.gallary hr {
+    width: 20%;
+}
+
+.gallary ul {
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 20px;
+    border: 1px solid rgb(94, 94, 94);
+}
+
+.gallary ul li a {
+    color: white;
+    font-weight: 800;
+}
+
+.gallary ul li .active {
+    border-radius: 30px;
+}
+
+/* start contact */
+.contact {
+    background-image: linear-gradient(to right, black 70%, rgb(199, 198, 198));
+    color: white;
+}
+
+.contact .hr {
+    height: 2px;
+    background-image: linear-gradient(to left, black, red, black);
+    border-radius: 50%;
+    width: 40%;
+    margin: 15px auto;
+}
+
+.contact hr {
+    border: 1px dashed white;
+    margin: 15px auto;
+}
+
+.contact .hr1 {
+    width: 30%;
+}
+
+.contact hr {
+    width: 20%;
+}
+
+
+/*start footer */
+footer {
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+
+footer h6 a {
+    color: gray;
+}
+
+footer h6 a:hover {
+    text-decoration: none;
+}
+
+footer p {
+    color: gray;
+}
+
+footer hr {
+    border-color: gray;
+}
+
+footer a i {
+    font-weight: 800;
+    font-size: 32px;
+    color: white;
+}
+
+footer a:hover i {
+    color: cyan;
+}
+
+footer p a {
+    color: gray;
+}
+
+footer p a:hover {
+    text-decoration: none;
+}
+
+@media(max-width: 576px) {
+    footer .text-right {
+        text-align: center !important;
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
