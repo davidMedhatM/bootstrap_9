@@ -9,7 +9,7 @@ header nav {
     background-image: linear-gradient(to right, black 70%, white);
 }
 
-header nav a {
+header nav ul li a {
     color: wheat;
     font-weight: 300;
     font-family: cursive;
@@ -18,7 +18,7 @@ header nav a {
 
 }
 
-header nav a:hover {
+header nav ul li a:hover {
     background-color: white;
     text-decoration: underline !important;
     border-radius: 20px;
@@ -182,6 +182,16 @@ footer p a:hover {
 @media(max-width: 576px) {
     footer .text-right {
         text-align: center !important;
+    }
+    #contactus .container .margininphone{
+        margin-top: 20px;
+    }
+    .gallary ul {
+        /* justify-content: center !important; */
+        border: none;
+    }
+    .gallary ul li {
+        margin: 2px auto;
     }
 }
 html{
